@@ -1,0 +1,834 @@
+body {
+    position: relative;
+    width: 1440px;
+height: 1582px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+header {
+    width: 1100px;
+height: 37px;
+flex-shrink: 0;
+ margin-top: 50px;
+ margin-left: 166px;
+ margin-right: 174px;
+ display: flex;
+ justify-content: space-between;
+}
+header span {
+    color: #9F0013;
+font-family: Roboto Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+ .name {
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+ }
+ .karakter {
+    color: #9F0013;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+ }
+ .bolme {
+    display: block;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+ }
+ .komiks {
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+
+ }
+ .surname {
+    display: flex;
+    align-items: flex-end;
+    
+ }
+ .container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 166px;
+    margin-right: 174px;
+ }
+
+.thor {
+    display: flex;
+    width: 550px;
+height: 250px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+
+ }
+ .thor img {
+    width: 180px;
+height: 180px;
+flex-shrink: 0;
+margin-top: 35px;
+margin-bottom: 35px;
+margin-left: 40px;
+ }
+ .thor h1 {
+    max-width: 51px;
+    max-height: 29px;
+    
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 30px;
+margin-top: 35px;
+ 
+ }
+ .thor p {
+    box-sizing: border-box;
+    width: 265px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
+margin-top: 10px;
+
+
+} 
+.altalta {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.homepage {  display: block;
+width: 101px;
+height: 38px;
+flex-shrink: 0;
+margin-left: 30px;
+margin-top: 13px;
+background-color: #9F0013;
+color: #FFF;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: 1px solid white;
+
+}
+.wiki {
+    width: 101px;
+height: 38px;
+flex-shrink: 0;
+margin-top: 13px;
+margin-right:68px;
+margin-left: 30px;
+background-color: #5c5c5c;
+color: #FFF;
+border:1px solid white; 
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buton {
+    display: flex;
+    justify-content: space-between;
+} 
+ 
+ 
+.kaptan {
+    
+    box-sizing: border-box;
+    width: 550px;
+height: 250px;
+flex-shrink: 0;
+background: #232222;
+box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.kaptan p {
+    color: #FFF;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 374px;
+height: 64px;
+margin-top: 35px;
+margin-left: 40px;
+}
+
+.kaptan h2 {
+    height: 32px;
+    width: 218px;
+    color: #FFF;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 33px;
+margin-left: 40px;
+}
+
+.kaptan button {
+    width: 101px;
+height: 38px;
+flex-shrink: 0;
+background-color: #9F0013;
+border: 1px solid transparent;
+margin-top: 13px;
+margin-left: 40px;
+margin-bottom: 35px }
+
+
+
+.abyss {
+    margin-top: 53px;
+    width: 200px;
+height: 318px;
+flex-shrink: 0;
+background-color: #232222;
+
+
+}
+.abyss img {
+    width: 200px;
+    height: 200px;
+}
+.abyss p { 
+    color: #FFF;
+font-family: Roboto Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 178px;
+height: 29px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.abyss:hover {
+   margin-top: 44px;
+    box-shadow: 0 5px 30px #9F0013;
+}  
+
+.loki {
+    margin-top: 53px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+    
+    
+    
+}
+.loki img {
+    width: 200px;
+    height: 200px;
+}
+.loki p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.loki:hover {
+    margin-top: 44px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+
+.adam{
+    margin-top: 53px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.adam img {
+    width: 200px;
+    height: 200px;
+}   
+.adam p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.adam:hover {
+    margin-top: 44px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+.hamisi {
+    width: 650px;
+    height: 371px;
+    display:flex;
+    margin-left: 166px;
+    justify-content: space-between;
+}
+
+.boom {
+    margin-top: 30px;
+    justify-content: stretch;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+} 
+.boom img {
+    width: 200px;
+    height: 200px;
+}
+.boom p{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.boom:hover{
+    margin-top: 22px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+.hamsi2 {
+    width: 650px;
+    height: 371px;
+    display:flex;
+    margin-left: 166px;
+    justify-content: space-between;
+}
+.calypso {
+    margin-top: 30px;
+   
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.calypso img {
+    width: 200px;
+    height: 200px;
+}
+.calypso p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.calypso:hover {
+    margin-top: 22px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+
+.wing {
+    margin-top: 30px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.wing img{
+    width: 200px;
+    height: 200px;
+}
+.wing p{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.wing:hover {
+    margin-top: 22px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+.hamsi3 {
+    width: 650px;
+    height: 371px;
+    display:flex;
+    margin-left: 166px;
+    justify-content: space-between;
+}
+
+.daimon {
+    margin-top: 10px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.daimon img {
+    width: 200px;
+    height: 200px;
+}
+.daimon p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.daimon:hover {
+    margin-top: 2px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+
+.damage {
+    margin-top: 10px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.damage img{
+    width: 200px;
+    height: 200px;
+}
+.damage p{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.damage:hover{
+    margin-top: 2px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+.hulk {
+    margin-top: 10px;
+    width: 200px;
+    height: 318px;
+    flex-shrink: 0;
+    background-color: #232222;
+}
+.hulk img {
+    width: 200px;
+    height: 200px;
+}
+.hulk p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 178px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.hulk:hover{
+    margin-top: 2px;
+    box-shadow: 0 5px 30px #9F0013;
+}
+
+.ortam {
+    display: flex;
+}
+.ortaliq2 {
+    width: 425px;
+height: 763px;
+margin-top: 53px;
+margin-left: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.kartmetni{
+    display: flex;
+width: 425px;
+height: 175px;
+}
+.kartmetni img {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.kartmetni p {
+    width: 42px;
+    height: 29px;
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.lokininonu button {
+    width: 101px;
+    height: 38px;
+    flex-shrink: 0;
+    background-color: #9F0013;
+    border: 1px solid transparent;
+    margin-top: 35px;
+    color: #FFF;
+}
+.lokininonu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.lokininonu .tr {
+    width: 101px;
+    height: 38px;
+    flex-shrink: 0;
+    background-color: #5c5c5c;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    color: #FFF;
+}
+.lokihakkinda {
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 375px;
+    height: 128px;
+    flex-shrink: 0;
+}
+.lokihakkinda p{
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.com {
+width: 59px;
+height: 24px;
+margin-top: 10px;
+margin-left: 25px;
+}
+.com p {
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.metin1 {
+    margin-top: 14px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin1 p {
+    width: 250px;
+height: 18px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 4px;
+margin-left: 10px;
+
+}
+.metin2{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin2 p {
+    width: 250px;
+height: 18px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 4px;
+margin-left: 10px;
+}
+.metin3 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin3 p {
+    width: 250px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.metin4{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin4 p {  width: 250px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.metin5 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 44px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin5 p {
+    width: 356px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.metin6 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+.metin6 p {
+    width: 319px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.metin7 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 44px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.metin7 p {
+    width: 356px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.metin8 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.metin8 p {
+    width: 250px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+    }
+.metin9 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+.metin9 p {
+    width: 250px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.metin10 {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 375px;
+height: 25px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+.metin10 p {
+    width: 250px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.son {
+    width: 170px;
+height: 38px;
+flex-shrink: 0;
+background-color: #9F0013;
+border: 1px solid white;
+color: #FFF;
+margin-left: 405px;
+margin-top: 10px;
+}
+.sonpic {
+    width: 467px;
+height: 372px;
+flex-shrink: 0;
+position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sonpic img {
+    width: 100%;
+height: 100%;
+flex-shrink: 0;
+}
+
